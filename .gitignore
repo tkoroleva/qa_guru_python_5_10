@@ -1,0 +1,14 @@
+.idea/
+*.iml
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.cache
+**/.pytest_cache/
+*.log
+.python-version
+tests/allure-results
+.tool-versions
+.venv*
+venv*/
