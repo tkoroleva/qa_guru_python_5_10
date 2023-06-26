@@ -23,5 +23,3 @@ def test_search_github_issue():
     browser.element('#issues-tab').click()
     browser.element(by.partial_text(issue_number)).should(be.visible)
 
-
-browser.quit()

@@ -47,6 +47,3 @@ def open_issues_tab():
 @allure.step(f'Проверить наличие Issue {issue_number}')
 def check_issue_with_number(number):
     s(by.partial_text(number)).click()
-
-
-browser.quit()

@@ -28,4 +28,3 @@ def test_search_github_issue():
     with allure.step(f'Проверить наличие Issue {issue_number}'):
         browser.element(by.partial_text(issue_number)).should(be.visible)
 
-    browser.quit()
