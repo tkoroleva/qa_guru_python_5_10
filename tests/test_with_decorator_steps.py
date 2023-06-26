@@ -4,8 +4,8 @@ from selene.support import by
 from selene.support.shared import browser
 from selene.support.shared.jquery_style import s
 
-rep = 'eroshenkoam/allure-example'
-issue_number = '80'
+rep = 'tkoroleva/qa_guru_python_5_10'
+issue_number = '#2'
 
 
 @allure.tag('web')
